@@ -8,7 +8,7 @@ import com.mywaysai.automatedtaskremindertrackingapplication.entity.Task;
 import com.mywaysai.automatedtaskremindertrackingapplication.service.TaskService;
 
 import java.util.List;
-
+//@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/tasks")
 public class TaskController {
